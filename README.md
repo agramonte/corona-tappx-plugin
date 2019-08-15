@@ -10,16 +10,12 @@
 	<li>Buy and activate either Admob Plugin or Pro Bundle.</li>
 	<li>Activate this plugin.</li>
 	<li>Register at:<a href="https://www.tappx.com/en/">tappx</a> to use the service and follow directions to add your app to the console. If you want to give me credit for using tappx use <a href="https://www.tappx.com/?h=a386595d4c1005fd21b82c8a44d45766"> this link </a> to register.</li>
-	<li> Add the following value to your build settings:
-    ```
-  ["plugin.tappx"] = { publisherId = "com.cabagomez", supportedPlatforms = { ["android"] = true } } 
-    ```
+	<li> Add the following value to your build settings:	
+ <blockquote> ["plugin.tappx"] = { publisherId = "com.cabagomez", supportedPlatforms = { ["android"] = true } }</blockquote> 
 	</li>
 	<li>
 	<p>Plugin supports Android 16 and above. Add to your build settings file:</p>
-	 ```
-   minSdkVersion = "16",
-    ```
+   	<blockquote> minSdkVersion = "16",</blockquote> 
 	</li>
 	<li>
 	<p><a href="https://www.tappx.com/en/manual/?os=and_admob#1_admob+2_mediation">Follow the directions on the Tappx site</a> to add tappx to the Admob waterfall.</p>
